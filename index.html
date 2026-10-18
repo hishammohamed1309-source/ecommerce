@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>E-commerce</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+    </script>
+    <nav class="navbar navbar-expand-lg bg-white sticky-top py-3 border-bottom">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-3 text-dark d-flex align-items-center gap-2" href="#">
+        <i class="fa-solid fa-headphones text-primary"></i> SoundVibe
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-semibold">
+          <li class="nav-item"><a class="nav-link text-primary active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#best-selling">Best Sellers</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#black-friday">Deals</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#new-arrivals">New Arrivals</a></li>
+        </ul>
+        <div class="d-flex align-items-center gap-3">
+          <a href="#" class="text-dark fs-5 position-relative"><i class="fa-solid fa-magnifying-glass"></i></a>
+          <a href="#" class="text-dark fs-5 position-relative">
+            <i class="fa-regular fa-heart"></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger fs-8">2</span>
+          </a>
+          <a href="#" class="text-dark fs-5 position-relative">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary fs-8">3</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="hero-section py-5 my-3">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <span class="badge bg-primary-subtle text-primary fw-bold text-uppercase mb-3 px-3 py-2 rounded-pill">New Release 2026</span>
+          <h1 class="display-4 fw-black text-dark mb-3 lh-sm">Discover The Brand New Headset In Market</h1>
+          <p class="text-secondary fs-5 mb-4">Experience crystal clear spatial audio and ultra-low latency noise cancellation. Designed for audiophiles and gamers alike.</p>
+          <div class="d-flex align-items-center gap-3">
+            <a href="#best-selling" class="btn btn-primary btn-lg rounded-pill px-4 py-3 fw-bold shadow-sm">Shop Collection <i class="fa-solid fa-arrow-right ms-2"></i></a>
+            <a href="#black-friday" class="btn btn-outline-dark btn-lg rounded-pill px-4 py-3 fw-bold">View Offers</a>
+          </div>
+        </div>
+        <div class="col-lg-6 text-center">
+          <div class="hero-img-wrapper position-relative p-4">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80" alt="Headphones" class="img-fluid rounded-4 shadow-lg hero-img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="best-selling" class="py-5 bg-light">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+          <h2 class="fw-bold m-0 text-dark">Our Best Selling</h2>
+          <p class="text-muted small m-0">Top-rated audio gear picked by thousands</p>
+        </div>
+        <a href="#" class="btn btn-sm btn-outline-primary rounded-pill px-3 fw-semibold">View All <i class="fa-solid fa-chevron-right ms-1"></i></a>
+      </div>
+      <div class="row g-4">
+        <div class="col-6 col-md-3">
+          <div class="card h-100 border-0 shadow-sm product-card rounded-4 overflow-hidden">
+            <div class="position-relative bg-white text-center p-3">
+              <span class="badge bg-danger position-absolute top-0 start-0 m-3 z-1">-20%</span>
+              <img src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=400&q=80" class="card-img-top product-img" alt="Beats By Dre">
+            </div>
+            <div class="card-body d-flex flex-column p-3 bg-white">
+              <div class="text-warning small mb-1">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                <span class="text-muted ms-1">(4.8)</span>
+              </div>
+              <h6 class="card-title fw-bold text-dark mb-2">Beats Studio Pro</h6>
+              <div class="mt-auto d-flex align-items-center justify-content-between">
+                <div>
+                  <span class="fw-bold text-dark fs-5">$199.99</span>
+                  <span class="text-muted text-decoration-line-through small ms-1">$249.99</span>
+                </div>
+                <button class="btn btn-dark btn-sm rounded-circle p-2"><i class="fa-solid fa-cart-plus"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card h-100 border-0 shadow-sm product-card rounded-4 overflow-hidden">
+            <div class="position-relative bg-white text-center p-3">
+              <img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&q=80" class="card-img-top product-img" alt="JBL Speaker">
+            </div>
+            <div class="card-body d-flex flex-column p-3 bg-white">
+              <div class="text-warning small mb-1">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <span class="text-muted ms-1">(5.0)</span>
+              </div>
+              <h6 class="card-title fw-bold text-dark mb-2">JBL Flip 6 Speaker</h6>
+              <div class="mt-auto d-flex align-items-center justify-content-between">
+                <span class="fw-bold text-dark fs-5">$89.99</span>
+                <button class="btn btn-dark btn-sm rounded-circle p-2"><i class="fa-solid fa-cart-plus"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card h-100 border-0 shadow-sm product-card rounded-4 overflow-hidden">
+            <div class="position-relative bg-white text-center p-3">
+              <img src="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400&q=80" class="card-img-top product-img" alt="Samsung Earphones">
+            </div>
+            <div class="card-body d-flex flex-column p-3 bg-white">
+              <div class="text-warning small mb-1">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                <span class="text-muted ms-1">(4.2)</span>
+              </div>
+              <h6 class="card-title fw-bold text-dark mb-2">Samsung Earbuds 2</h6>
+              <div class="mt-auto d-flex align-items-center justify-content-between">
+                <span class="fw-bold text-dark fs-5">$29.99</span>
+                <button class="btn btn-dark btn-sm rounded-circle p-2"><i class="fa-solid fa-cart-plus"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card h-100 border-0 shadow-sm product-card rounded-4 overflow-hidden">
+            <div class="position-relative bg-white text-center p-3">
+              <span class="badge bg-success position-absolute top-0 start-0 m-3 z-1">Hot</span>
+              <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400&q=80" class="card-img-top product-img" alt="Wireless Headset">
+            </div>
+            <div class="card-body d-flex flex-column p-3 bg-white">
+              <div class="text-warning small mb-1">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <span class="text-muted ms-1">(4.9)</span>
+              </div>
+              <h6 class="card-title fw-bold text-dark mb-2">Wireless Headset Max</h6>
+              <div class="mt-auto d-flex align-items-center justify-content-between">
+                <span class="fw-bold text-dark fs-5">$119.99</span>
+                <button class="btn btn-dark btn-sm rounded-circle p-2"><i class="fa-solid fa-cart-plus"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="promo-banner p-4 p-md-5 rounded-4 text-white position-relative overflow-hidden shadow" style="background: linear-gradient(135deg, #1d2671 0%, #c33764 100%);">
+            <div class="position-relative z-1 max-w-50">
+              <span class="badge bg-white text-dark mb-2 fw-bold">Limited Offer</span>
+              <h3 class="fw-bold fs-2 mb-2">High Quality Bluetooth Earbuds</h3>
+              <p class="small text-white-50 mb-3">Active noise cancellation with 32h playback time.</p>
+              <a href="#" class="btn btn-light rounded-pill px-4 fw-bold">Shop Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="promo-banner p-4 p-md-5 rounded-4 text-white position-relative overflow-hidden shadow" style="background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);">
+            <div class="position-relative z-1 max-w-50">
+              <span class="badge bg-warning text-dark mb-2 fw-bold">Best Value</span>
+              <h3 class="fw-bold fs-2 mb-2">Headphones For All Range Of Prices</h3>
+              <p class="small text-white-50 mb-3">Explore models from premium to entry budget level.</p>
+              <a href="#" class="btn btn-warning rounded-pill px-4 fw-bold">Explore All</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="black-friday" class="py-5 bg-dark text-white my-4">
+    <div class="container py-3">
+      <div class="row align-items-center">
+        <div class="col-lg-5 mb-4 mb-lg-0">
+          <span class="badge bg-danger mb-3 px-3 py-2 fw-bold text-uppercase">Flash Sale</span>
+          <h2 class="display-5 fw-bold mb-3">Our Black Friday Discount</h2>
+          <p class="text-white-50 mb-4">Get up to 50% off on all flagship speakers and noise-canceling headphones. Limited stock available!</p>
+          <div class="d-flex gap-2 gap-md-3 mb-4 text-center">
+            <div class="bg-secondary bg-opacity-25 rounded-3 p-3 flex-fill">
+              <h3 class="fw-bold m-0 text-warning">01</h3>
+              <span class="small text-white-50">Days</span>
+            </div>
+            <div class="bg-secondary bg-opacity-25 rounded-3 p-3 flex-fill">
+              <h3 class="fw-bold m-0 text-warning">12</h3>
+              <span class="small text-white-50">Hours</span>
+            </div>
+            <div class="bg-secondary bg-opacity-25 rounded-3 p-3 flex-fill">
+              <h3 class="fw-bold m-0 text-warning">45</h3>
+              <span class="small text-white-50">Mins</span>
+            </div>
+            <div class="bg-secondary bg-opacity-25 rounded-3 p-3 flex-fill">
+              <h3 class="fw-bold m-0 text-warning">30</h3>
+              <span class="small text-white-50">Secs</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="row g-3">
+            <div class="col-4">
+              <div class="bg-white text-dark rounded-4 p-3 text-center h-100 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1545454675-3531b543be5d?w=300&q=80" class="img-fluid rounded-3 mb-2 product-img-sm" alt="Outdoor Speaker">
+                <h6 class="fw-bold small text-truncate m-0">Outdoor Speaker</h6>
+                <p class="text-primary fw-bold mb-0 mt-1">$49.99</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="bg-white text-dark rounded-4 p-3 text-center h-100 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&q=80" class="img-fluid rounded-3 mb-2 product-img-sm" alt="Ultimate Ear Speaker">
+                <h6 class="fw-bold small text-truncate m-0">Ultimate Ears 3</h6>
+                <p class="text-primary fw-bold mb-0 mt-1">$69.99</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="bg-white text-dark rounded-4 p-3 text-center h-100 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=300&q=80" class="img-fluid rounded-3 mb-2 product-img-sm" alt="Boom Speaker">
+                <h6 class="fw-bold small text-truncate m-0">Ultimate Boom 2</h6>
+                <p class="text-primary fw-bold mb-0 mt-1">$89.99</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="new-arrivals" class="py-5">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+          <h2 class="fw-bold m-0 text-dark">New Arrivals</h2>
+          <p class="text-muted small m-0">Check out our latest tech gadgets</p>
+        </div>
+        <a href="#" class="btn btn-sm btn-outline-primary rounded-pill px-3 fw-semibold">View All <i class="fa-solid fa-chevron-right ms-1"></i></a>
+      </div>
+      <div class="row g-4">
+        <!-- New Arrival 1 -->
+        <div class="col-6 col-md-3">
+          <div class="card h-100 border-0 shadow-sm product-card rounded-4 overflow-hidden">
+            <div class="position-relative bg-light text-center p-3">
+              <span class="badge bg-primary position-absolute top-0 start-0 m-3 z-1">New</span>
+              <img src="https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=400&q=80" class="card-img-top product-img" alt="Apple AirPods">
+            </div>
+            <div class="card-body d-flex flex-column p-3">
+              <h6 class="card-title fw-bold text-dark mb-2">Apple AirPods 3</h6>
+              <div class="mt-auto d-flex align-items-center justify-content-between">
+                <span class="fw-bold text-dark fs-5">$179.99</span>
+                <button class="btn btn-outline-dark btn-sm rounded-circle p-2"><i class="fa-solid fa-cart-plus"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card h-100 border-0 shadow-sm product-card rounded-4 overflow-hidden">
+            <div class="position-relative bg-light text-center p-3">
+              <img src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=400&q=80" class="card-img-top product-img" alt="Beats Solo 3">
+            </div>
+            <div class="card-body d-flex flex-column p-3">
+              <h6 class="card-title fw-bold text-dark mb-2">Beats Solo 3 Wireless</h6>
+              <div class="mt-auto d-flex align-items-center justify-content-between">
+                <span class="fw-bold text-dark fs-5">$149.99</span>
+                <button class="btn btn-outline-dark btn-sm rounded-circle p-2"><i class="fa-solid fa-cart-plus"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card h-100 border-0 shadow-sm product-card rounded-4 overflow-hidden">
+            <div class="position-relative bg-light text-center p-3">
+              <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&q=80" class="card-img-top product-img" alt="AirPods Max">
+            </div>
+            <div class="card-body d-flex flex-column p-3">
+              <h6 class="card-title fw-bold text-dark mb-2">Apple AirPods Max</h6>
+              <div class="mt-auto d-flex align-items-center justify-content-between">
+                <span class="fw-bold text-dark fs-5">$549.99</span>
+                <button class="btn btn-outline-dark btn-sm rounded-circle p-2"><i class="fa-solid fa-cart-plus"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card h-100 border-0 shadow-sm product-card rounded-4 overflow-hidden">
+            <div class="position-relative bg-light text-center p-3">
+              <img src="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400&q=80" class="card-img-top product-img" alt="Samsung Earphones">
+            </div>
+            <div class="card-body d-flex flex-column p-3">
+              <h6 class="card-title fw-bold text-dark mb-2">Samsung Earphones Pro</h6>
+              <div class="mt-auto d-flex align-items-center justify-content-between">
+                <span class="fw-bold text-dark fs-5">$59.99</span>
+                <button class="btn btn-outline-dark btn-sm rounded-circle p-2"><i class="fa-solid fa-cart-plus"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-light pt-5 pb-4 border-top">
+    <div class="container">
+      <div class="row g-4 mb-4">
+        <div class="col-lg-4 col-md-6">
+          <a class="navbar-brand fw-bold fs-3 text-dark d-flex align-items-center gap-2 mb-3" href="#">
+            <i class="fa-solid fa-headphones text-primary"></i> SoundVibe
+          </a>
+          <p class="text-secondary small mb-3">Your ultimate destination for premium quality audio accessories, headphones, and wireless gear.</p>
+          <div class="d-flex gap-2">
+            <a href="#" class="btn btn-sm btn-outline-dark rounded-circle"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="btn btn-sm btn-outline-dark rounded-circle"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="btn btn-sm btn-outline-dark rounded-circle"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="btn btn-sm btn-outline-dark rounded-circle"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h6 class="fw-bold text-dark mb-3">Use Case</h6>
+          <ul class="list-unstyled text-secondary small d-flex flex-column gap-2 mb-0">
+            <li><a href="#" class="text-secondary text-decoration-none">For Gamers</a></li>
+            <li><a href="#" class="text-secondary text-decoration-none">For Audiophiles</a></li>
+            <li><a href="#" class="text-secondary text-decoration-none">Work From Home</a></li>
+            <li><a href="#" class="text-secondary text-decoration-none">Fitness & Sport</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h6 class="fw-bold text-dark mb-3">Products</h6>
+          <ul class="list-unstyled text-secondary small d-flex flex-column gap-2 mb-0">
+            <li><a href="#" class="text-secondary text-decoration-none">Headphones</a></li>
+            <li><a href="#" class="text-secondary text-decoration-none">Earbuds</a></li>
+            <li><a href="#" class="text-secondary text-decoration-none">Speakers</a></li>
+            <li><a href="#" class="text-secondary text-decoration-none">Accessories</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h6 class="fw-bold text-dark mb-3">Subscription</h6>
+          <p class="text-secondary small mb-3">Subscribe to our newsletter to receive news and daily updates.</p>
+          <div class="input-group mb-3">
+            <input type="email" class="form-control rounded-start-pill ps-3" placeholder="Enter your email...">
+            <button class="btn btn-primary rounded-end-pill px-4 fw-bold" type="button">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <hr class="my-4 text-muted">
+      <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center text-secondary small gap-2">
+        <p class="m-0">&copy; 2026 SoundVibe Store. All rights reserved.</p>
+        <div class="d-flex gap-3">
+          <a href="#" class="text-secondary text-decoration-none">Privacy Policy</a>
+          <a href="#" class="text-secondary text-decoration-none">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
